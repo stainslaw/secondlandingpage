@@ -6,13 +6,13 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Roboto', arial;
-}
-
-.container {
     display: flex;
     flex-direction: column;
 }
 
+html {
+    scroll-behavior: smooth;
+   }
 
 /* Navbar */
 
@@ -40,13 +40,12 @@ body {
     margin-left: 40px;
 }
 
-
-
 /* Home Section */
 
 .welcome {
     display: flex;
     display: block;
+    text-align: center;
     align-items: center;
     color: white;
     background-color: #1b242f;
@@ -59,24 +58,37 @@ body {
     color: #e31b6d;
 }
 
-/* Home Section Button */
-
 .button {
     display: flex;
-    justify-content: center;
+    display: inline-block;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     text-decoration: none;
     letter-spacing: 1px;
     color: white;
     outline: 2px solid white;
     padding: 20px 30px;
-    transition: color .3s;
+    transition: color .2s;
 }
 
 .button:hover {
     color: #e31b6d;
 }
 
-/* Welcome */
+/* Content */
 
+.content {
+    background-color: #fff;
+    color: #1b242f;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 300px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1b242f;
+    color: #fff;
+    font-family: 'Roboto', arial;
+}
