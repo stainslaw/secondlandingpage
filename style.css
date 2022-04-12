@@ -1,3 +1,5 @@
+/* Main */
+
 body {
     background-color: #FFFFFF;
     padding: 0;
@@ -10,3 +12,31 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #1b242f;
+    padding: 10px 0px 10px 100px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+#home {
+    color: #e31b6d;
+}
+
+.header-links, a{
+    display: flex;
+    padding: 10px 20px 10px 0px; 
+    gap: 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration-line: none;
+    margin-left: 40px;
+}
+
